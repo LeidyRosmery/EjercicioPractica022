@@ -1,13 +1,27 @@
-#div1, #div3 {
-    background-color: yellow;
+
+div{
+background-color: #808080 ;
+width: 200px;
+height: 200px;
+margin: 20px 20px;
+border: solid 2px #808057;
+box-sizing: border-box;
+padding: 0;
 }
 
-#div2 {
-    background-color: violet;
+.inDiv {
+  display: inline-block;
+  margin:0px;
+  width: 160px;
+  height: 150px;
+  margin: 20px 20px;
+
 }
 
-div {
-    height: 100px;
-    width: 250px;
-    display: inline-block;
+#div3 , #div4 {
+  display: inline-block;
+}
+#div2{
+  width: 612px;
+
 }
